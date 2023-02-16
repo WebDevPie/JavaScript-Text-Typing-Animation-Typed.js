@@ -1,0 +1,25 @@
+body {
+    font-family: 'Consolas', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0188c7;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__editor {
+    background: #000;
+    width: 60%;
+    padding: 15px 15px 100px;
+    border-radius: 8px;
+    border-top: 20px solid #e8e8e8;
+}
+
+.text__editor .text__body {font-size: 24px; color: #fff;}
+
+.typed-cursor {color: #fff;}
